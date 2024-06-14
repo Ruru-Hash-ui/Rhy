@@ -1,8 +1,8 @@
 module.exports = {
 	config: {
-			name: "GabYu",
+			name: "Ram Bermudez",
 			version: "1.0",
-			author: "GabYu",
+			author: "Ram Bermudez",
 			countDown: 5,
 			role: 0,
 			shortDescription: "sarcasm",
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "@Gab Yu") return message.reply("Busy Owner ko");
+	if (event.body && event.body.toLowerCase() == "@Ram Bermudez") return message.reply("Busy Owner ko");
 }
 };
