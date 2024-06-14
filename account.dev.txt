@@ -14,7 +14,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1752892836.968642,
+        "expirationDate": 1752896087.080912,
         "hostOnly": false,
         "httpOnly": true,
         "name": "datr",
@@ -40,7 +40,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1723518190,
+        "expirationDate": 1723520734,
         "hostOnly": false,
         "httpOnly": false,
         "name": "vpd",
@@ -66,7 +66,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1749870190,
+        "expirationDate": 1749872734,
         "hostOnly": false,
         "httpOnly": false,
         "name": "fbl_st",
@@ -75,7 +75,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "101521433%3BT%3A28638903"
+        "value": "101531060%3BT%3A28638945"
     },
     {
         "domain": ".facebook.com",
@@ -156,7 +156,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1718938871,
+        "expirationDate": 1718941531,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wd",
@@ -169,7 +169,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1726110190,
+        "expirationDate": 1726112734,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wl_cbv",
@@ -178,7 +178,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "v2%3Bclient_version%3A2529%3Btimestamp%3A1718334264"
+        "value": "v2%3Bclient_version%3A2529%3Btimestamp%3A1718336809"
     },
     {
         "domain": ".facebook.com",
@@ -190,6 +190,6 @@
         "secure": true,
         "session": true,
         "storeId": null,
-        "value": "eyJyIjoiL2NvbmZpcm1lbWFpbC5waHA%2FbmV4dD1odHRwcyUzQSUyRiUyRm0uZmFjZWJvb2suY29tJTJGJTNGZGVvaWElM0QxJnNvZnQ9aGprIiwiaCI6Ii9jb25maXJtZW1haWwucGhwP25leHQ9aHR0cHMlM0ElMkYlMkZtLmZhY2Vib29rLmNvbSUyRiUzRmRlb2lhJTNEMSZzb2Z0PWhqayIsInMiOiJtIn0%3D"
+        "value": "eyJyIjoiLyIsImgiOiIvIiwicyI6Im0ifQ%3D%3D"
     }
 ]
