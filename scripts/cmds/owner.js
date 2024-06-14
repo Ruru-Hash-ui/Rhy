@@ -32,17 +32,17 @@ config: {
 
     const ownerInfo = {
 
-      name: '𝗚𝗔𝗕 𝗬𝗨',
+      name: 'RAM BERMUDEZ',
 
       gender: '𝗠𝗔𝗟𝗘',
 
-      age: '𝟭𝟰',
+      age: 'SECRET',
 
-      height: '𝟱 𝟳',
+      height: 'SECRET',
 
-      facebookLink: 'https://www.facebook.com/profile.php?id=100079114908948',
+      facebookLink: 'SECRET,
 
-      nick: '𝗚𝗜𝗬𝗨'
+      nick: 'RAM'
 
     };
 
