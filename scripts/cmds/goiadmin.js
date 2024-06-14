@@ -13,7 +13,7 @@ config: {
     var aid = ["100079114908948"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Don't tag admin, nag bebe time Yun!", "Admin is currently busy 😌", "Sorry, admin is gay 🥺","ano kailangan mo sa pogi kong admin? 😤"," Another tag in my admin, i will suck your dick 😡👊"];
+      var msg = ["Don't tag admin, nag bebe time Yun!", "Admin is currently busy 😌", "Sorry, admin is handsome 😎","ano kailangan mo sa pogi kong admin? 😤"," Another tag in my admin, i will suck your dick 😡👊"];
       api.setMessageReaction("❔", event.messageID, (err) => {}, true);
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
    }
