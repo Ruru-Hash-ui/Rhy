@@ -4,27 +4,27 @@ module.exports = {
   config: {
     name: "imgur",
     version: "1.0",
-    author: "kaizenji",//cliff API 
+    author: "otinxsandip",
     countDown: 5,
     role: 0,
-    longDescription: { en: "Upload Mp4, Gif, Jpeg in Imgur"},
+    longDescription: "Imgur link",
     category: "image",
     guide: {
-      en: "{pn} reply to image"
+      en: "${pn} reply to image"
     }
   },
 
   onStart: async function ({ message, api, event }) {
-    const pogi = event.messageReply?.attachments[0]?.url;
+    const puti = event.messageReply?.attachments[0]?.url;
 
-    if (!pogi) {
+    if (!puti) {
       return message.reply('Please reply to an image.');
     }
 
     try {
-      const res = await axios.get(`https://69070.replit.app/imgur2?link=${encodeURIComponent(pogi)}`);
-      const kaiz = res.data.uploaded.image;
-      return message.reply(kaiz);
+      const res = await axios.get(`https://sandipapi.onrender.com/imgur?link=${encodeURIComponent(puti)}`);
+      const lado = res.data.uploaded.image;
+      return message.reply(lado);
     } catch (error) {
       console.error(error);
       return message.reply('api sucks bro.');
