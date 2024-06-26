@@ -1,4 +1,4 @@
-// Assuming you have a global object to store data
+const { GoatWrapper } = require('fca-liane-utils');
 global.botData = {};
 
 module.exports = {
@@ -48,3 +48,6 @@ module.exports = {
         }
     }
 };
+
+const wrapper = new GoatWrapper(module.exports);
+wrapper.applyNoPrefix({ allowPrefix: true });
