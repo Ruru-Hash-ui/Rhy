@@ -1,5 +1,6 @@
 const { findUid } = global.utils;
 const regExCheckURL = /^(http|https):\/\/[^ "]+$/;
+const { GoatWrapper } = require('fca-liane-utils');
 
 module.exports = {
 	config: {
@@ -65,3 +66,6 @@ module.exports = {
 		message.reply(msg || getLang("syntaxError"));
 	}
 };
+
+const wrapper = new GoatWrapper(module.exports);
+wrapper.applyNoPrefix({ allowPrefix: true });
