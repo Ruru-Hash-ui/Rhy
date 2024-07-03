@@ -17,7 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100079114908948",
+    "100041394069745",
     "",
     ""
   ],
@@ -26,11 +26,11 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Gab Yu",
-  "AGE": "14",
+  "OWNER": "Ram",
+  "AGE": "SECRET",
   "GENDER": "MALE",
-  "nickNameBot": "𝗚𝗼𝗷𝗼 | ☣️",
-  "FACEBOOK": "https://www.facebook.com/profile.php?id=100079114908948",
+  "nickNameBot": "PERYAHAN BOT",
+  "FACEBOOK": "https://www.facebook.com/profile.php?id=100041394069745",
   "prefix": "/",
   "database": {
     "type": "sqlite",
