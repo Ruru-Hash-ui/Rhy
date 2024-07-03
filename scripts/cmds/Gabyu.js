@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "@Gab Yu") return message.reply("Busy Owner ko");
+	if (event.body && event.body.toLowerCase() == "@Ram Bermudez") return message.reply("Busy Owner ko");
 }
 };
